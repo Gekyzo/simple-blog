@@ -1,0 +1,10 @@
+extends ../../../template/post.pug
+
+block content
+    :markdown-it(linkify langPrefix='highlight-')
+
+        # Este es el título
+
+        ```js
+        var codeBlocks;
+        ```

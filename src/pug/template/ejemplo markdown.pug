@@ -1,0 +1,12 @@
+extends ../../../template/default.pug
+
+block content
+    :markdown-it(linkify langPrefix='highlight-')
+
+      # Markdownn
+
+      Markdown document with http://links.com and
+
+      ```js
+      var codeBlocks;
+      ```
